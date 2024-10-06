@@ -1,0 +1,26 @@
+.navbar-container {
+    background-color: darkblue;
+    color: white; 
+    padding: 10px 20px;
+    /* flexbox */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* applies to all a tag */
+  .navbar-container a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar-container a:hover {
+    color: rgb(49, 255, 228);
+  }
+  
+  /* only applies to active links (navlinks)  */
+  .navbar-container a.active {
+    color: lightblue;
+    text-decoration: underline;
+  }
